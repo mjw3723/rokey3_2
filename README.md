@@ -42,4 +42,8 @@
 
 ---
 
+## 차선 인식 알고리즘 흐름도 
+
+<pre lang="markdown"> ``` ------> | brightness |  ------>  | 히스토그램 평활화 | ------>  | Guassian Blur | ------>  | HSV | ------> | morphology | ``` </pre>
+
 
