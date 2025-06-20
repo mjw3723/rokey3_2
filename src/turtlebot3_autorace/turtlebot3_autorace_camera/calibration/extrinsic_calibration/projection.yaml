@@ -1,0 +1,15 @@
+---
+camera:
+  image_projection:
+    ros__parameters:
+      camera:
+        extrinsic_camera_calibration:
+          top_x: 280
+          top_y: 0
+          bottom_x: 320
+          bottom_y: 358
+          
+          
+          
+          
+          #강사
