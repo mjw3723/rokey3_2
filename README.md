@@ -84,7 +84,10 @@ turtlebot3_ws/src/aruco_yolo/pick_n_place.py 실행
 
 ##시연영상
 
-https://github.com/user-attachments/assets/7b53718f-8006-4bc6-af1f-625095c656f7
+
+
+https://github.com/user-attachments/assets/f4510b2f-2d52-48bd-97ac-aea122eb0cf8
+
 
 
 
