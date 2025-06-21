@@ -42,6 +42,23 @@
 
 ---
 
+## 실행
+
+- 자율주행
+```sh
+ros2 launch turtlebot3_autorace_mission rokey3.launch.py
+ros2 launch turtlebot3_manipulation_bringup hardware.launch.py
+```
+
+- Manipulator​
+
+```sh
+ros2 launch turtlebot3_manipulation_moveit_config moveit_core.launch.py
+ros2 run acruo_yolo acuro_detect
+```
+turtlebot3_ws/src/aruco_yolo/pick_n_place.py 실행
+
+
 ## 차선 인식 알고리즘 흐름도 
 
 <pre lang="markdown"> ``` ------> | brightness |  ------>  | 히스토그램 평활화 | ------>  | Guassian Blur | ------>  | HSV | ------> | morphology | ``` </pre>
@@ -64,5 +81,10 @@
 4. HSV 색 영역을 빠르게 검출하기 위해 H,S,V 를 트랙바로 조절하여 실시간으로 확인할 수 있는 GUI를 제작 ( test.py )
 
 ![스크린샷 2025-06-19 20-15-32](https://github.com/user-attachments/assets/2e048a59-d955-435a-9a63-15b459061c05)
+
+##시연영상
+
+https://github.com/user-attachments/assets/7b53718f-8006-4bc6-af1f-625095c656f7
+
 
 
